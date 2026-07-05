@@ -10,7 +10,7 @@ function validarCorreo(correo) {
 
 /*soloLetras(texto) → boolean — solo letras mayúsculas/minúsculas, acepta vocales acentuadas*/
 function soloLetras(texto) {
-    let expr = /^[A-Za-z]+$/;
+    let expr = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/;
     if (expr.test(texto)) {
         return true;
     } else {
@@ -49,12 +49,8 @@ function esMayorDeEdad(fecha) {
 
 /*validarPassword(password) → boolean — requiere mayúscula, minúscula, número, carácter especial y mínimo 8 caracteres */
 function validarPassword(password) {
-    let expr = /^[A-Za-z0-9@#%&*=]+$/;
-    if (!expr.test(password) && password.length < 8) {
-        return false;
-    } else {
-        return true;
-    }
+    let expr = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#%&*=])[A-Za-z\d@#%&*=]{8,}$/;
+    return expr.test(password);
 }
 
 
