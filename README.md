@@ -1,9 +1,13 @@
 # Libreria: Utileria.js 🛠️
 
-**Utileria.js** es una librería ligera de JavaScript diseñada para simplificar y agilizar el desarrollo web. 
+**Autor:** Rodriguez Juarez Jose Daniel
+**Materia:** Programación Web  
+**GitHub Pages:** ``  
 
 **¿Qué problema resuelve?**
-Evita tener que reescribir funciones comunes de validación y cálculos en cada nuevo proyecto. Con Utileria.js, tienes a tu disposición un conjunto de funciones listas para usar que validan correos, contraseñas, números, fechas y realizan cálculos de edad, asegurando que los datos de tus formularios sean correctos antes de enviarlos.
+
+Utileria.js es una librería ligera de JavaScript diseñada para simplificar y agilizar el desarrollo web. 
+Evita tener que reescribir funciones comunes de validación y cálculos en cada nuevo proyecto. Con esta libreria cuentas con un conjunto de funciones listas para usar que validan correos, contraseñas, números, fechas y realizan cálculos de edad, asegurando que los datos de tus formularios sean correctos antes de enviarlos.
 
 ---
 
