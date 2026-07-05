@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/recursosVisuales.css">
+    <script src="js/utileria.js" defer></script>
+    <script src="js/login.js" defer></script>
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+        <h1>Iniciar Sesión</h1>
+        <p class="subtitulo">Porfavor ingrese su usario y contraseña</p>
+        <div class="grupo-formulario">
+            <label for="correo">Correo:</label>
+            <input type="text" id="correo" placeholder="Ej: usuario123@gmail.com">
+            <small id="msgCorreo" style="display:block; margin-top:4px; font-size:13px;"></small>
+            <br>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" placeholder="ingrese su contraseña">
+            <small id="msgContrasena" style="display:block; margin-top:4px; font-size:13px;"></small>
+            <br>
+        </div>
+        <div class="grupo-botones">
+            <button type="button" id="iniciarSesion" class="boton" onclick="procesarLogin()">Iniciar Sesión</button>
+            <button type="button" class="boton" onclick="window.location.href='index.html'">Volver al
+                formulario</button>
+        </div>
+    </div>
+</body>
+
+</html>

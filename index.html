@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/recursosVisuales.css">
+    <script src="js/utileria.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+        <h1>Formulario: utileria.js</h1>
+        <p class="subtitulo">Elaborado por: Rodriguez Juarez Jose Daniel</p>
+        <div class="grupo-formulario">
+            <label for="nombre">Ingrese su nombre completo:</label>
+            <input type="text" id="nombre" placeholder="Ej.Jose Daniel">
+            <small id="msgNombre" style="display:block; margin-top:4px; font-size:13px;"></small>
+            <br>
+            <label for="numero">Ingrese su numero de telefono:</label>
+            <input type="text" id="numero" placeholder="Ej.1234567890">
+            <small id="msgNumero" style="display:block; margin-top:4px; font-size:13px;"></small>
+            <br>
+            <label for="codigoPostal">Ingrese su código postal:</label>
+            <input type="text" id="codigoPostal" placeholder="Ej. 12345">
+            <small id="msgCodigoPostal" style="display:block; margin-top:4px; font-size:13px;"></small>
+            <br>
+            <label for="fechaNacimiento">Ingrese su fecha de nacimiento:</label>
+            <input type="date" id="fechaNacimiento">
+            <small id="msgFecha" style="display:block; margin-top:4px; font-size:13px;"></small>
+            <br>
+            <label for="txtMayorEdad">Confirmación de Mayoría de Edad:</label>
+            <textarea id="txtMayorEdad" rows="1" readonly placeholder="Esperando validación..."></textarea>
+            <br><br>
+            <label for="txtEdad">Edad Calculada:</label>
+            <textarea id="txtEdad" rows="1" readonly placeholder="Esperando validación..."></textarea>
+            <br><br>
+
+        </div>
+
+        <label for="txtFechaFutura">¿La fecha de nacimiento es futura?:</label>
+        <textarea id="txtFechaFutura" rows="1" readonly placeholder="Esperando validación..."></textarea>
+        <br><br>
+
+        <div class="grupo-botones">
+            <button type="button" id="validar" class="boton" onclick="validarFormulario()">Validar</button>
+            <button type="button" class="boton" onclick="window.location.href='login.html'">Ir al login</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
