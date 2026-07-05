@@ -1,4 +1,4 @@
-# Libreria: Utileria.js 🛠️
+# Libreria: Utileria.js 
 
 **Autor:** Rodriguez Juarez Jose Daniel
 
@@ -23,7 +23,7 @@ Para usar Utileria.js en tu proyecto, simplemente descarga el archivo `utileria.
 ```
 
 
-## Funciones y Ejemplos de Código 💻
+## Funciones y Ejemplos de Código 
 
 A continuación, se muestran ejemplos de cómo utilizar cada una de las funciones incluidas en la librería.
 
@@ -155,7 +155,7 @@ console.log("¿Es fecha futura?:", fechaPasada); // devuelve false
 
 ---
 
-## Demo en Video 🎬
+## Demo en Video 
 
 
 [Video_Promocional](#
