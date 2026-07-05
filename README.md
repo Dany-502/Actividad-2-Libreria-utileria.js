@@ -4,7 +4,7 @@
 
 **Materia:** Programación Web  
 
-**GitHub Pages:** ``  
+**GitHub Pages:** `https://dany-502.github.io/Actividad-2-Libreria-utileria.js/`  
 
 ---
 **¿Qué problema resuelve?**
@@ -157,6 +157,5 @@ console.log("¿Es fecha futura?:", fechaPasada); // devuelve false
 
 ## Demo en Video 🎬
 
-*(Inserta aquí el enlace a tu video corto de máximo 1 minuto demostrando el problema que resuelve, cómo se usa y el resultado en acción, véndelo en 60 segundos)*
 
 [Ver Video Promocional Aquí](#)
