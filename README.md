@@ -1,9 +1,12 @@
 # Libreria: Utileria.js 🛠️
 
 **Autor:** Rodriguez Juarez Jose Daniel
+
 **Materia:** Programación Web  
+
 **GitHub Pages:** ``  
 
+---
 **¿Qué problema resuelve?**
 
 Utileria.js es una librería ligera de JavaScript diseñada para simplificar y agilizar el desarrollo web. 
