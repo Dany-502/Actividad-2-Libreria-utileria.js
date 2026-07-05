@@ -14,7 +14,7 @@ Evita tener que reescribir funciones comunes de validación y cálculos en cada 
 
 ---
 
-## Instalación 🚀
+## Instalación 
 
 Para usar Utileria.js en tu proyecto, simplemente descarga el archivo `utileria.js` y agrégalo a tu documento HTML usando la etiqueta `<script>`.
 
@@ -115,7 +115,7 @@ console.log("¿Es fecha futura?:", fechaPasada); // devuelve false
 
 ---
 
-## Capturas de Pantalla 📸
+## Capturas de Pantalla 
 
 ### 1. Formulario Principal - Validaciones Correctas
 ![Formulario Válido](img/Formulario_Valido.png)
