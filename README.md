@@ -23,7 +23,7 @@ Para usar Utileria.js en tu proyecto, simplemente descarga el archivo `utileria.
 ```
 
 
-## Uso y Ejemplos de Código 💻
+## Funciones y Ejemplos de Código 💻
 
 A continuación, se muestran ejemplos de cómo utilizar cada una de las funciones incluidas en la librería.
 
@@ -120,6 +120,7 @@ console.log("¿Es fecha futura?:", fechaPasada); // devuelve false
 ### 1. Formulario Principal - Validaciones Correctas
 ![Formulario Válido](img/Formulario_Valido.png)
 **Descripción:** Muestra la consola y la interfaz del formulario principal cuando todos los datos ingresados cumplen con los criterios estipulados en la librería.
+
 **Validaciones probadas:**
 - `soloLetras()` (Nombre)
 - `validarLongitud()` (Número de teléfono)
@@ -129,6 +130,7 @@ console.log("¿Es fecha futura?:", fechaPasada); // devuelve false
 ### 2. Formulario Principal - Validaciones Incorrectas
 ![Formulario Inválido](img/Formulario_Invalido.png)
 **Descripción:** Muestra la consola y la respuesta de la interfaz resaltando los errores de captura cuando los datos violan las reglas de validación.
+
 **Validaciones probadas:**
 - `soloLetras()` (Nombre con números o símbolos no permitidos)
 - `validarLongitud()` (Número de teléfono excediendo el límite)
@@ -138,6 +140,7 @@ console.log("¿Es fecha futura?:", fechaPasada); // devuelve false
 ### 3. Inicio de Sesión - Datos Correctos
 ![Inicio de Sesión Válido](img/Inicio_Sesion_Valida.png)
 **Descripción:** Muestra la pantalla de inicio de sesión (login) evaluando positivamente cuando el correo y la contraseña tienen el formato correcto.
+
 **Validaciones probadas:**
 - `validarCorreo()` (Formato válido con @ y dominio)
 - `validarPassword()` (Contraseña fuerte cumpliendo todos los requisitos)
@@ -145,6 +148,7 @@ console.log("¿Es fecha futura?:", fechaPasada); // devuelve false
 ### 4. Inicio de Sesión - Datos Incorrectos
 ![Inicio de Sesión Inválido](img/Inicio_Sesion_InValida.png)
 **Descripción:** Muestra la pantalla de inicio de sesión detectando errores de formato y omisiones en las credenciales proporcionadas.
+
 **Validaciones probadas:**
 - `validarCorreo()` (Correo mal escrito, sin dominio o caracteres inválidos)
 - `validarPassword()` (Contraseña débil, corta o carente de símbolos especiales)
